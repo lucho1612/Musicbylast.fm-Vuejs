@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <holaMundo></holaMundo> -->
-    <img src="./assets/logo.png">
+    <img src="https://lucho1612.github.io/Musicbylast.fm-Vuejs/dist/logo.png">
     <h1>{{ title }}</h1>
     <select v-model="selected">
       <option v-for="country in countries" v-bind:value="country.value">
